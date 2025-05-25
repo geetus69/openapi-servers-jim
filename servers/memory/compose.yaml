@@ -3,7 +3,7 @@ services:
     build:
       context: .
     ports:
-      - 8000:8000
+      - 8001:8001
     volumes:
       - memory:/app/data:rw
 
